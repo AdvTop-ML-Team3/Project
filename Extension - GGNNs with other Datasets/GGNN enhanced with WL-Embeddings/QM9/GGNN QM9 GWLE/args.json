@@ -1,0 +1,17 @@
+{
+    "method": "ggnn_gwle",
+    "label": "",
+    "conv_layers": 4,
+    "batchsize": 32,
+    "device": "-1",
+    "out": "./model-ggnn_gwle-qm9",
+    "epoch": 2,
+    "unit_num": 16,
+    "dataset": "qm9",
+    "protocol": 2,
+    "num_data": -1,
+    "scale": "standardize",
+    "adam_alpha": 0.001,
+    "cutoff_wle": 0,
+    "hop_num": 1
+}

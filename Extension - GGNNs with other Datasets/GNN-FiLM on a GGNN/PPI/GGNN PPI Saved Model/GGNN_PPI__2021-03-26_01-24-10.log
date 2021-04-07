@@ -1,0 +1,40 @@
+Setting random seed 0.
+Dataset parameters: {"max_nodes_per_batch": 8000, "add_self_loop_edges": true, "tie_fwd_bkwd_edges": false}
+Model parameters: {"gnn_aggregation_function": "sum", "gnn_message_activation_function": "tanh", "gnn_message_activation_before_aggregation": false, "gnn_hidden_dim": 320, "gnn_use_target_state_as_input": false, "gnn_normalize_by_num_incoming": false, "gnn_num_edge_MLP_hidden_layers": 0, "gnn_message_calculation_class": "GGNN", "gnn_initial_node_representation_activation": "tanh", "gnn_dense_intermediate_layer_activation": "tanh", "gnn_num_layers": 3, "gnn_dense_every_num_layers": 10000, "gnn_residual_every_num_layers": 10000, "gnn_use_inter_layer_layernorm": false, "gnn_layer_input_dropout_rate": 0.1, "gnn_global_exchange_mode": "gru", "gnn_global_exchange_every_num_layers": 10000, "gnn_global_exchange_weighting_fun": "softmax", "gnn_global_exchange_num_heads": 4, "gnn_global_exchange_dropout_rate": 0.2, "optimizer": "Adam", "learning_rate": 0.001, "learning_rate_warmup_steps": null, "learning_rate_decay_steps": null, "momentum": 0.85, "rmsprop_rho": 0.98, "gradient_clip_value": null, "gradient_clip_norm": null, "gradient_clip_global_norm": null, "use_intermediate_gnn_results": false}
+Initial valid metric: Avg MicroF1: 0.369.
+== Epoch 1
+ Train:  26.6534 loss | Avg MicroF1: 0.419 | 0.18 graphs/s
+ Valid:  33.1578 loss | Avg MicroF1: 0.428 | 0.34 graphs/s
+  (Best epoch so far, target metric decreased to -0.42763 from -0.36883.)
+== Epoch 2
+ Train:  23.5219 loss | Avg MicroF1: 0.423 | 0.20 graphs/s
+ Valid:  32.2275 loss | Avg MicroF1: 0.424 | 0.38 graphs/s
+== Epoch 3
+ Train:  22.7977 loss | Avg MicroF1: 0.449 | 0.20 graphs/s
+ Valid:  31.2395 loss | Avg MicroF1: 0.467 | 0.38 graphs/s
+  (Best epoch so far, target metric decreased to -0.46685 from -0.42763.)
+== Epoch 4
+ Train:  22.1398 loss | Avg MicroF1: 0.483 | 0.20 graphs/s
+ Valid:  30.4386 loss | Avg MicroF1: 0.486 | 0.38 graphs/s
+  (Best epoch so far, target metric decreased to -0.48635 from -0.46685.)
+== Epoch 5
+ Train:  21.5694 loss | Avg MicroF1: 0.506 | 0.20 graphs/s
+ Valid:  29.6480 loss | Avg MicroF1: 0.509 | 0.38 graphs/s
+  (Best epoch so far, target metric decreased to -0.50896 from -0.48635.)
+== Epoch 6
+ Train:  21.0100 loss | Avg MicroF1: 0.528 | 0.18 graphs/s
+ Valid:  28.9646 loss | Avg MicroF1: 0.541 | 0.30 graphs/s
+  (Best epoch so far, target metric decreased to -0.54145 from -0.50896.)
+== Epoch 7
+ Train:  20.5139 loss | Avg MicroF1: 0.552 | 0.20 graphs/s
+ Valid:  28.3890 loss | Avg MicroF1: 0.538 | 0.37 graphs/s
+== Epoch 8
+ Train:  20.0831 loss | Avg MicroF1: 0.570 | 0.20 graphs/s
+ Valid:  27.8104 loss | Avg MicroF1: 0.539 | 0.37 graphs/s
+== Epoch 9
+ Train:  19.5896 loss | Avg MicroF1: 0.577 | 0.20 graphs/s
+ Valid:  26.9203 loss | Avg MicroF1: 0.587 | 0.37 graphs/s
+  (Best epoch so far, target metric decreased to -0.58732 from -0.54145.)
+== Epoch 10
+ Train:  18.8324 loss | Avg MicroF1: 0.614 | 0.20 graphs/s
+ Valid:  26.3483 loss | Avg MicroF1: 0.575 | 0.38 graphs/s

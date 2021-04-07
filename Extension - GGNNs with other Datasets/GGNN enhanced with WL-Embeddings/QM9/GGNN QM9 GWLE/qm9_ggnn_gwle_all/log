@@ -1,0 +1,20 @@
+[
+    {
+        "main/loss": 984.909691312692,
+        "main/MAE": 8.93760218543391,
+        "validation/main/loss": 726.3664958653416,
+        "validation/main/MAE": 7.217973633996057,
+        "epoch": 1,
+        "iteration": 3348,
+        "elapsed_time": 209.46673731500002
+    },
+    {
+        "main/loss": 473.5280883488172,
+        "main/MAE": 5.6574381621588445,
+        "validation/main/loss": 548.245519369485,
+        "validation/main/MAE": 5.8660481135429805,
+        "epoch": 2,
+        "iteration": 6695,
+        "elapsed_time": 427.301324001
+    }
+]
