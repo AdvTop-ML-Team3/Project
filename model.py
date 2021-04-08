@@ -1,7 +1,11 @@
 '''
 This file contains my implementation of the GGNN and GGSNN models described in the paper [1]. 
-Code contains equations from Sections 3 and 4 in the paper [1] and some inspiration from the author's Lua implementation at: https://github.com/yujiali/ggnn/blob/master/ggnn
-No code has been reproduced from the original repository - I've only used the core ideas for direction. 
+
+Code contains:  equations from Sections 3 and 4 in the paper [1], 
+                some inspiration from the author's Lua implementation at: https://github.com/yujiali/ggnn/blob/master/ggnn
+                design aspects inspired by https://github.com/KaihuaTang/GGNN-for-bAbI-dataset.pytorch.1.0
+                
+No code has been reproduced from any repository - I've only used the core ideas for direction. 
 '''
 
 import torch
