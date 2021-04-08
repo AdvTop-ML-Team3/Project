@@ -19,7 +19,7 @@ class GGNN(nn.Module):
         self.hidden_layer_dim = args.hidden_layer_dim
         self.annotation_dim = specifications.ANNOT_DIMENSION[str(args.task_id)]
 
-        # Initialise values from bAbI Object parameters initialised in data_loader.py
+        # Initialise values from bAbI Object parameters initialised in data_handler.py
         self.num_nodes = args.n_node_ids
         self.num_edges = args.n_edge_types
         self.num_labels  = args.n_labels
