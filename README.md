@@ -4,7 +4,7 @@
 
 I have implemented the paper in Python, using Pytorch. This implementation is used to verify the results of the paper, in particular the claims of perfect (or near-perfect) accuracy on [bAbI](https://research.fb.com/downloads/babi/) tasks 4, 15, 16, 18 and 19, and learning graph algorithms like shortest path and Eulerian circuit.
 
-In implementing the code, I have referred to the [original paper](https://arxiv.org/abs/1511.05493), translating the equations directly into Pytorch code and closely following the description of the proposed model. In certain cases where the paper's description was insufficient to translate to code (like defining [Graph Level Features](https://github.com/AdvTop-ML-Team3/Project/blob/main/model.py)), I have referred the [original author's code in Lua](https://github.com/yujiali/ggnn), for an idea as to how to proceed.
+In implementing the code, I have referred to the [original paper](https://arxiv.org/abs/1511.05493), translating the equations directly into Pytorch code and closely following the description of the proposed model. In certain cases where the paper's description was insufficient to translate to code, I have referred the [original author's code in Lua](https://github.com/yujiali/ggnn), for an idea as to how to proceed.
 
 Further, since the paper does not deal with the variation of results depending on the format of input data, I have used the [preprocessing code](https://github.com/yujiali/ggnn/tree/master/babi/data) provided by the original author, Dr. Yujia Li. I am grateful to the authors, for sharing these online.
 
