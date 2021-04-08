@@ -1,3 +1,9 @@
+'''
+This file contains my implementation of the GGNN and GGSNN models described in the paper [1]. 
+Code contains equations from Sections 3 and 4 in the paper [1] and some inspiration from the author's Lua implementation at: https://github.com/yujiali/ggnn/blob/master/ggnn
+No code has been reproduced from the original repository - I've only used the core ideas for direction. 
+'''
+
 import torch
 import torch.nn as nn
 
@@ -146,5 +152,5 @@ class Propagation(nn.Module):
         return output
 '''
 Ref:
-- Li, Yujia, et al. "Gated graph sequence neural networks." arXiv preprint arXiv:1511.05493 (2015).
+- [1] Li, Yujia, et al. "Gated graph sequence neural networks." arXiv preprint arXiv:1511.05493 (2015).
 '''
