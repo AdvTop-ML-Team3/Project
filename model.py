@@ -1,5 +1,5 @@
 '''
-This file contains my implementation of the GGNN and GGSNN models described in the paper [1]. 
+This file contains my implementation of the GGNN and GGSNN models described in the paper 'Gated Graph Sequence Neural Networks' [1]. 
 
 Code contains:  equations from Sections 3 and 4 in the paper [1], 
                 some inspiration from the author's Lua implementation at: https://github.com/yujiali/ggnn/blob/master/ggnn
